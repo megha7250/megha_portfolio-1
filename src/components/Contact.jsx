@@ -74,13 +74,14 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Let's connect</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
         
-        <a 
-          href="src/assets/Resume.pdf"
-          download="Resume.pdf"
-          className="mt-4 inline-block bg-red-500 hover:bg-red-600 py-3 px-6 text-white font-bold rounded-xl shadow-md shadow-primary transition-all"
-        >
-          Download Resume
-        </a>
+       
+         <a 
+  href="src/assets/MEGHA%20BICHUKALE(2).pdf" 
+  download="Resume.pdf"
+  className="mt-4 inline-block bg-red-500 hover:bg-red-600 py-3 px-6 text-white font-bold rounded-xl shadow-md shadow-primary transition-all"
+>
+  Download Resume
+</a>
 
         <form
   ref={formRef}
