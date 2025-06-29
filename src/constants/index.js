@@ -26,7 +26,8 @@ import college from "../assets/college.png";
 import linkedin from "../assets/linkedin_profile.png";
 import leetcode from "../assets/leetcode_profile copy.png";
 import github from "../assets/github_profile.png";
-image: "src/assets/Profile_img.png"
+import profileImg from "../assets/Profile_img.png";
+
 
 
 export const navLinks = [
