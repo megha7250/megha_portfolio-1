@@ -4,6 +4,8 @@ import {motion} from 'framer-motion';
 import { styles } from "../styles";
 import { fadeIn, textVariant } from "../utils/motion";
 import { myProfiles } from '../constants';
+import profileImage from "../assets/Profile_img.png";
+
 
 const ProfileCard =({
     index,
@@ -53,11 +55,12 @@ const Profile = () => {
         </p>
       </motion.div>
       <div className="absolute top-10 right-5">
-        <img
-          src="src/assets/Profile_img.png" // Replace with your actual image path
-          alt="Profile-img"
-          className="w-56 h-56 md:w-64 md:h-64 rounded-full object-cover border-4 border-white shadow-lg"
-        />
+       <img
+  src={profileImage}  // ✅ Now using the import variable
+  alt="Profile-img"
+  className="w-56 h-56 md:w-64 md:h-64 rounded-full object-cover border-4 border-white shadow-lg"
+/>
+
       </div>
       <div className="mt-40 flex flex-wrap gap-7">
         {myProfiles.map((profile, index)=>(
