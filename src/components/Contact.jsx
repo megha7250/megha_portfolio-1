@@ -75,13 +75,14 @@ const Contact = () => {
         <h3 className={styles.sectionHeadText}>Contact</h3>
         
        
-         <a 
-  href="src/assets/MEGHA%20BICHUKALE(2).pdf" 
-  download="Resume.pdf"
+<a 
+  href="/resume.pdf" 
+  download="Megha_Bichukale_Resume.pdf"
   className="mt-4 inline-block bg-red-500 hover:bg-red-600 py-3 px-6 text-white font-bold rounded-xl shadow-md shadow-primary transition-all"
 >
   Download Resume
 </a>
+
 
         <form
   ref={formRef}
