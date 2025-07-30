@@ -165,16 +165,16 @@ const myProfiles = [
 
 const projects = [
   {
-    name: "Food Website",
+    name: "ChatPulse",
     description:
-      "Developed a fully responsive food website using HTML, CSS, and JavaScript, focusing on dynamic functionality, intuitive layouts, and seamless user experience across devices.",
+     "A real-time anonymous chat application that connects users randomly using WebSockets. Built using MERN stack with seamless user interface and secure connection handling.",
     tags: [
-      { name: "HTML", color: "blue-text-gradient" },
-      { name: "CSS", color: "green-text-gradient" },
-      { name: "JavaScript", color: "pink-text-gradient" },
+     { name: "MERN", color: "blue-text-gradient" },
+    { name: "Socket.io", color: "green-text-gradient" },
+    { name: "TailwindCSS", color: "pink-text-gradient" },
     ],
-    image: Food,
-    source_code_link: "https://github.com/megha7250/Responsive-food-website",
+    image: chatpulse,
+    source_code_link: "https://github.com/megha7250/Chattingpulse-master",
   },
   {
     name: "Amazon Clone",
