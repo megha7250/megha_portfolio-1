@@ -18,7 +18,7 @@ import {
   meghaPortfolio,
   threejs,
   AmazonClone,
-  Food,
+  chatpulse
 } from "../assets";
 
 import school from "../assets/school.png";
@@ -27,6 +27,8 @@ import linkedin from "../assets/linkedin_profile.png";
 import leetcode from "../assets/leetcode_profile copy.png";
 import github from "../assets/github_profile.png";
 import profileImg from "../assets/Profile_img.png";
+
+
 
 
 
