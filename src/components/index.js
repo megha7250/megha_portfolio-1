@@ -9,6 +9,8 @@ import Feedbacks from './Feedbacks';
 import Contact from './Contact';
 import Profile from './Profile';
 import Education from './Education';
+import chatpulse from "../assets/chatpulse.png";
+
 
 export {
   Hero,
