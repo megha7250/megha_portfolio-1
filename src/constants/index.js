@@ -18,7 +18,7 @@ import {
   meghaPortfolio,
   threejs,
   AmazonClone,
-  food
+  Food
 } from "../assets";
 
 import school from "../assets/school.png";
