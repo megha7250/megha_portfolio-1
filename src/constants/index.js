@@ -18,7 +18,7 @@ import {
   meghaPortfolio,
   threejs,
   AmazonClone,
-  chatpulse
+  food
 } from "../assets";
 
 import school from "../assets/school.png";
@@ -27,6 +27,7 @@ import linkedin from "../assets/linkedin_profile.png";
 import leetcode from "../assets/leetcode_profile copy.png";
 import github from "../assets/github_profile.png";
 import profileImg from "../assets/Profile_img.png";
+
 
 
 
@@ -175,7 +176,7 @@ const projects = [
     { name: "Socket.io", color: "green-text-gradient" },
     { name: "TailwindCSS", color: "pink-text-gradient" },
     ],
-    image: chatpulse,
+    image: food,
     source_code_link: "https://github.com/megha7250/Chattingpulse-master",
   },
   {
